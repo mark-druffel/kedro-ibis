@@ -1,0 +1,8 @@
+trips:
+  type: spark.SparkDataset
+  filepath: data/bronze/raw/trips/yellow_trips/*.parquet
+  file_format: "parquet"
+
+raw_trips_delta:
+  type: spark.DeltaTableDataset
+  filepath: data/bronze/managed/yellow_trips

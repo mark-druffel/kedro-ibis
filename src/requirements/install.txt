@@ -1,0 +1,5 @@
+ibis-framework[duckdb,pandas,polars,pyspark]==7.2.0
+kedro==0.19.2
+kedro-datasets[pandas.CSVDataset,pandas.DeltaTableDataset,pandas.parquetDataset,polars.LazyPolarsDataset,polars.EagerPolarsDataset,spark.DeltaTableDataset,spark.SparkDataset]==2.0.0
+kedro-viz==7.1.0
+pyspark==3.2.4
