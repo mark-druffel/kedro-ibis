@@ -1,0 +1,11 @@
+"version": "2.0.0",
+"tasks": [
+    {
+        "label": "conda install dev",
+        "type": "shell",
+        "command": "python ./env/make_dev.py",
+        "args": [
+            "--dev"
+        ]
+    },
+}
